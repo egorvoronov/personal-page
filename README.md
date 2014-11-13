@@ -5,9 +5,8 @@ personal-page
 
 This project is an simple personal page on native php with light-weight framework
 
+Work version: http://egorvoronov.name
 
 ## Contact
-
-site: http://egorvoronov.name
 
 email: egorvoronov@gmail.com
