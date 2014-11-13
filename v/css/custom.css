@@ -1,0 +1,123 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+}
+
+
+.header .container img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.header .container a.lead {
+  text-decoration: none;
+}
+
+div.form-container.clearfix {
+  background: url(images/dogsAsk.jpg) no-repeat;
+  background-size: 400px;
+  background-position-y: 50px;
+}
+
+.form-container button.btn {
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.container .jumbotron {
+  padding-top: 20px;
+  padding-right: 250px;
+  height: 300px;
+  background-image: url(images/background_egor.jpg);
+  color: white;
+}
+
+.jumbotron h1 {
+  font-size: 3em;
+}
+
+.jumbotron p {
+  font-size: 14px;
+}
+
+.jumbotron .btn {
+  margin-top: 35px;
+}
+
+#myInfoContent {
+  min-height: 180px;
+}
+
+#myInfoContent > div {
+  margin-top: 20px;
+}
+
+.bg-info {
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+ul.nav-stacked {
+  margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .header, .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+.container .jumbotron {
+  padding-right: 0;
+}
+
+.jumbotron a.btn {
+  margin-top: 5px;
+}
+
+}
+
+/*Contacts*/
+.social {
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 5px 0;
+}
+
+.social + a {
+  margin-right: 10px;
+}
+
+.technologiesMap {
+  width: 100%;
+}
+
+.feedback {
+  margin-top: 50px;
+}
